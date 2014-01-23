@@ -1,0 +1,16 @@
+
+{
+  "uuid": "3aa643c5-acd4-4897-9213-5e6812da3857",
+  "shortName": "Dice",
+  "longName": "Dice",
+  "companyName": "Drewlusions",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {},
+  "resources": {
+    "media": []
+  }
+}
