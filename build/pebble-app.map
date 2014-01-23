@@ -1,12 +1,13 @@
 Archive member included because of file (symbol)
 
 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                              src/dice.c.7.o (accel_tap_service_subscribe)
+                              src/dice.c.15.o (accel_tap_service_subscribe)
 
 Allocating common symbols
 Common symbol       size              file
 
-counter_text        0x5               src/dice.c.7.o
+counter_text        0x5               src/dice.c.15.o
+roll                0x4               src/dice.c.15.o
 
 Discarded input sections
 
@@ -22,12 +23,10 @@ Discarded input sections
  .jcr           0x0000000000000000        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .tm_clone_table
                 0x0000000000000000        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .text          0x0000000000000000        0x0 src/dice.c.7.o
- .bss           0x0000000000000000        0x0 src/dice.c.7.o
- .text.dice_draw
-                0x0000000000000000       0x4c src/dice.c.7.o
- .text          0x0000000000000000        0x0 appinfo.auto.c.7.o
- .bss           0x0000000000000000        0x0 appinfo.auto.c.7.o
+ .text          0x0000000000000000        0x0 src/dice.c.15.o
+ .bss           0x0000000000000000        0x0 src/dice.c.15.o
+ .text          0x0000000000000000        0x0 appinfo.auto.c.15.o
+ .bss           0x0000000000000000        0x0 appinfo.auto.c.15.o
  .bss           0x0000000000000000        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.accel_data_service_subscribe
                 0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
@@ -117,18 +116,6 @@ Discarded input sections
                 0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.battery_state_service_unsubscribe
                 0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .text.bitmap_layer_create
-                0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .text.bitmap_layer_destroy
-                0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .text.bitmap_layer_get_layer
-                0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .text.bitmap_layer_set_alignment
-                0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .text.bitmap_layer_set_background_color
-                0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .text.bitmap_layer_set_bitmap
-                0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.bitmap_layer_set_compositing_mode
                 0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.bluetooth_connection_service_peek
@@ -205,10 +192,6 @@ Discarded input sections
  .text.gbitmap_create_as_sub_bitmap
                 0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.gbitmap_create_with_data
-                0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .text.gbitmap_create_with_resource
-                0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .text.gbitmap_destroy
                 0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.gmtime   0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.gpath_create
@@ -497,8 +480,6 @@ Discarded input sections
                 0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.vibes_long_pulse
                 0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .text.vibes_short_pulse
-                0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.window_get_click_config_provider
                 0x0000000000000000        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .text.window_get_fullscreen
@@ -592,8 +573,8 @@ Linker script and memory map
 
 LOAD /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
 LOAD /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-LOAD src/dice.c.7.o
-LOAD appinfo.auto.c.7.o
+LOAD src/dice.c.15.o
+LOAD appinfo.auto.c.15.o
 LOAD /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a
 START GROUP
 LOAD /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a
@@ -604,181 +585,216 @@ LOAD /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../
 
 .header         0x0000000000000000       0x82
  *(.pbl_header)
- .pbl_header    0x0000000000000000       0x82 appinfo.auto.c.7.o
+ .pbl_header    0x0000000000000000       0x82 appinfo.auto.c.15.o
                 0x0000000000000000                __pbl_app_info
 
-.text           0x0000000000000084      0x4ce
+.text           0x0000000000000084      0x6bf
  *(.text)
  .text          0x0000000000000084       0x14 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  *(.text.*)
- .text.window_unload
-                0x0000000000000098       0x24 src/dice.c.7.o
- .text.window_load
-                0x00000000000000bc       0xe0 src/dice.c.7.o
- .text.down_click_handler
-                0x000000000000019c       0x18 src/dice.c.7.o
  .text.up_click_handler
-                0x00000000000001b4       0x18 src/dice.c.7.o
+                0x0000000000000098        0x2 src/dice.c.15.o
+ .text.down_click_handler
+                0x000000000000009a        0x2 src/dice.c.15.o
+ .text.window_unload
+                0x000000000000009c       0x30 src/dice.c.15.o
+ .text.window_load
+                0x00000000000000cc      0x158 src/dice.c.15.o
  .text.click_config_provider
-                0x00000000000001cc       0x30 src/dice.c.7.o
- .text.random   0x00000000000001fc       0x12 src/dice.c.7.o
-                0x00000000000001fc                random
- *fill*         0x000000000000020e        0x2 
+                0x0000000000000224       0x30 src/dice.c.15.o
+ .text.randomnum
+                0x0000000000000254       0x12 src/dice.c.15.o
+                0x0000000000000254                randomnum
+ *fill*         0x0000000000000266        0x2 
  .text.update_text_layer_with_int
-                0x0000000000000210       0x34 src/dice.c.7.o
-                0x0000000000000210                update_text_layer_with_int
+                0x0000000000000268       0x34 src/dice.c.15.o
+                0x0000000000000268                update_text_layer_with_int
+ .text.display_roll
+                0x000000000000029c      0x148 src/dice.c.15.o
+                0x000000000000029c                display_roll
  .text.select_click_handler
-                0x0000000000000244       0x44 src/dice.c.7.o
+                0x00000000000003e4       0x3c src/dice.c.15.o
  .text.accel_tap_handler
-                0x0000000000000288       0x44 src/dice.c.7.o
-                0x0000000000000288                accel_tap_handler
+                0x0000000000000420       0x3c src/dice.c.15.o
+                0x0000000000000420                accel_tap_handler
  .text.startup.main
-                0x00000000000002cc       0x98 src/dice.c.7.o
-                0x00000000000002cc                main
+                0x000000000000045c       0xa4 src/dice.c.15.o
+                0x000000000000045c                main
  .text.accel_tap_service_subscribe
-                0x0000000000000364        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000364                accel_tap_service_subscribe
+                0x0000000000000500        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000500                accel_tap_service_subscribe
  .text.app_event_loop
-                0x0000000000000370        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000370                app_event_loop
- .text.app_log  0x000000000000037c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x000000000000037c                app_log
+                0x000000000000050c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x000000000000050c                app_event_loop
+ .text.app_log  0x0000000000000518        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000518                app_log
+ .text.bitmap_layer_create
+                0x0000000000000524        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000524                bitmap_layer_create
+ .text.bitmap_layer_destroy
+                0x0000000000000530        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000530                bitmap_layer_destroy
+ .text.bitmap_layer_get_layer
+                0x000000000000053c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x000000000000053c                bitmap_layer_get_layer
+ .text.bitmap_layer_set_alignment
+                0x0000000000000548        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000548                bitmap_layer_set_alignment
+ .text.bitmap_layer_set_background_color
+                0x0000000000000554        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000554                bitmap_layer_set_background_color
+ .text.bitmap_layer_set_bitmap
+                0x0000000000000560        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000560                bitmap_layer_set_bitmap
  .text.fonts_get_system_font
-                0x0000000000000388        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000388                fonts_get_system_font
+                0x000000000000056c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x000000000000056c                fonts_get_system_font
+ .text.gbitmap_create_with_resource
+                0x0000000000000578        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000578                gbitmap_create_with_resource
+ .text.gbitmap_destroy
+                0x0000000000000584        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000584                gbitmap_destroy
  .text.layer_add_child
-                0x0000000000000394        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000394                layer_add_child
- .text.memset   0x00000000000003a0        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x00000000000003a0                memset
- .text.rand     0x00000000000003ac        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x00000000000003ac                rand
+                0x0000000000000590        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000590                layer_add_child
+ .text.memset   0x000000000000059c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x000000000000059c                memset
+ .text.rand     0x00000000000005a8        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x00000000000005a8                rand
  .text.snprintf
-                0x00000000000003b8        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x00000000000003b8                snprintf
- .text.srand    0x00000000000003c4        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x00000000000003c4                srand
+                0x00000000000005b4        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x00000000000005b4                snprintf
+ .text.srand    0x00000000000005c0        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x00000000000005c0                srand
  .text.text_layer_create
-                0x00000000000003d0        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x00000000000003d0                text_layer_create
+                0x00000000000005cc        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x00000000000005cc                text_layer_create
  .text.text_layer_destroy
-                0x00000000000003dc        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x00000000000003dc                text_layer_destroy
+                0x00000000000005d8        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x00000000000005d8                text_layer_destroy
  .text.text_layer_get_layer
-                0x00000000000003e8        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x00000000000003e8                text_layer_get_layer
+                0x00000000000005e4        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x00000000000005e4                text_layer_get_layer
  .text.text_layer_set_background_color
-                0x00000000000003f4        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x00000000000003f4                text_layer_set_background_color
+                0x00000000000005f0        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x00000000000005f0                text_layer_set_background_color
  .text.text_layer_set_font
-                0x0000000000000400        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000400                text_layer_set_font
+                0x00000000000005fc        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x00000000000005fc                text_layer_set_font
  .text.text_layer_set_overflow_mode
-                0x000000000000040c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x000000000000040c                text_layer_set_overflow_mode
+                0x0000000000000608        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000608                text_layer_set_overflow_mode
  .text.text_layer_set_text
-                0x0000000000000418        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000418                text_layer_set_text
+                0x0000000000000614        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000614                text_layer_set_text
  .text.text_layer_set_text_alignment
-                0x0000000000000424        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000424                text_layer_set_text_alignment
+                0x0000000000000620        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000620                text_layer_set_text_alignment
  .text.text_layer_set_text_color
-                0x0000000000000430        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000430                text_layer_set_text_color
- .text.time     0x000000000000043c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x000000000000043c                time
+                0x000000000000062c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x000000000000062c                text_layer_set_text_color
+ .text.time     0x0000000000000638        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000638                time
+ .text.vibes_short_pulse
+                0x0000000000000644        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000644                vibes_short_pulse
  .text.window_create
-                0x0000000000000448        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000448                window_create
+                0x0000000000000650        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000650                window_create
  .text.window_destroy
-                0x0000000000000454        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000454                window_destroy
+                0x000000000000065c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x000000000000065c                window_destroy
  .text.window_get_root_layer
-                0x0000000000000460        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000460                window_get_root_layer
+                0x0000000000000668        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000668                window_get_root_layer
  .text.window_set_click_config_provider
-                0x000000000000046c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x000000000000046c                window_set_click_config_provider
+                0x0000000000000674        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000674                window_set_click_config_provider
  .text.window_set_window_handlers
-                0x0000000000000478        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000478                window_set_window_handlers
+                0x0000000000000680        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000680                window_set_window_handlers
  .text.window_stack_push
-                0x0000000000000484        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000484                window_stack_push
+                0x000000000000068c        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x000000000000068c                window_stack_push
  .text.window_single_click_subscribe
-                0x0000000000000490        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
-                0x0000000000000490                window_single_click_subscribe
+                0x0000000000000698        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+                0x0000000000000698                window_single_click_subscribe
  *(.rodata)
- .rodata        0x000000000000049c       0x1c src/dice.c.7.o
+ .rodata        0x00000000000006a4       0x18 src/dice.c.15.o
  *(.rodata*)
  .rodata.str1.1
-                0x00000000000004b8       0x9a src/dice.c.7.o
-                                         0x9c (size before relaxing)
+                0x00000000000006bc       0x87 src/dice.c.15.o
 
-.glue_7         0x0000000000000554        0x0
+.glue_7         0x0000000000000744        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x0000000000000554        0x0
+.glue_7t        0x0000000000000744        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000000554        0x0
+.vfp11_veneer   0x0000000000000744        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x0000000000000554        0x0
+.v4_bx          0x0000000000000744        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x0000000000000554        0x0
+.iplt           0x0000000000000744        0x0
  .iplt          0x0000000000000000        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.rel.dyn        0x0000000000000554        0x0
+.rel.dyn        0x0000000000000744        0x0
  .rel.iplt      0x0000000000000000        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .rel.got       0x0000000000000000        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.data           0x0000000000000554       0x1c
+.data           0x0000000000000744        0x4
  *(.data)
- .data          0x0000000000000554        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .data          0x0000000000000554        0x4 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x0000000000000554                __dso_handle
- .data          0x0000000000000558        0x0 src/dice.c.7.o
- .data          0x0000000000000558        0x0 appinfo.auto.c.7.o
- .data          0x0000000000000558        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
- .data          0x0000000000000558        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .data          0x0000000000000558        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x0000000000000744        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x0000000000000744        0x4 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000744                __dso_handle
+ .data          0x0000000000000748        0x0 src/dice.c.15.o
+ .data          0x0000000000000748        0x0 appinfo.auto.c.15.o
+ .data          0x0000000000000748        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
+ .data          0x0000000000000748        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x0000000000000748        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
  *(.data.*)
- .data.rel.local.nums
-                0x0000000000000558       0x18 src/dice.c.7.o
-                0x0000000000000558                nums
 
-.igot.plt       0x0000000000000570        0x0
+.igot.plt       0x0000000000000748        0x0
  .igot.plt      0x0000000000000000        0x0 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.got            0x0000000000000570        0x4
- .got           0x0000000000000570        0x4 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+.got            0x0000000000000748        0x8
+ .got           0x0000000000000748        0x8 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.got.plt        0x0000000000000574        0xc
- .got.plt       0x0000000000000574        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x0000000000000574                _GLOBAL_OFFSET_TABLE_
+.got.plt        0x0000000000000750        0xc
+ .got.plt       0x0000000000000750        0xc /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000750                _GLOBAL_OFFSET_TABLE_
 
-.bss            0x0000000000000580       0x15
+.bss            0x000000000000075c       0x2c
  *(.bss)
  *(.bss.*)
+ .bss.window    0x000000000000075c        0x4 src/dice.c.15.o
  .bss.num_rolls
-                0x0000000000000580        0x4 src/dice.c.7.o
-                0x0000000000000580                num_rolls
+                0x0000000000000760        0x4 src/dice.c.15.o
+                0x0000000000000760                num_rolls
+ .bss.dice_view_layer
+                0x0000000000000764        0x4 src/dice.c.15.o
  .bss.message_layer
-                0x0000000000000584        0x4 src/dice.c.7.o
+                0x0000000000000768        0x4 src/dice.c.15.o
+ .bss.image     0x000000000000076c        0x4 src/dice.c.15.o
  .bss.instruction_layer
-                0x0000000000000588        0x4 src/dice.c.7.o
- .bss.window    0x000000000000058c        0x4 src/dice.c.7.o
- COMMON         0x0000000000000590        0x5 src/dice.c.7.o
-                0x0000000000000590                counter_text
+                0x0000000000000770        0x4 src/dice.c.15.o
+ .bss.count_layer
+                0x0000000000000774        0x4 src/dice.c.15.o
+ .bss.intro_layer
+                0x0000000000000778        0x4 src/dice.c.15.o
+ COMMON         0x000000000000077c        0xc src/dice.c.15.o
+                0x000000000000077c                counter_text
+                0x0000000000000784                roll
 
 DISCARD
  libc.a(*)
  libm.a(*)
  libgcc.a(*)
  *(.eh_frame)
-OUTPUT(/Users/Drew/Dropbox/Dev/pebble-dev/Dice/Dice_0.2/build/pebble-app.elf elf32-littlearm)
+OUTPUT(/Users/Drew/Dropbox/Dev/pebble-dev/Dice/Dice_0.3/build/pebble-app.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x27
@@ -787,9 +803,9 @@ OUTPUT(/Users/Drew/Dropbox/Dev/pebble-dev/Dice/Dice_0.2/build/pebble-app.elf elf
  .ARM.attributes
                 0x0000000000000019       0x29 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .ARM.attributes
-                0x0000000000000042       0x33 src/dice.c.7.o
+                0x0000000000000042       0x33 src/dice.c.15.o
  .ARM.attributes
-                0x0000000000000075       0x33 appinfo.auto.c.7.o
+                0x0000000000000075       0x33 appinfo.auto.c.15.o
  .ARM.attributes
                 0x00000000000000a8       0x21 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  .ARM.attributes
@@ -800,39 +816,39 @@ OUTPUT(/Users/Drew/Dropbox/Dev/pebble-dev/Dice/Dice_0.2/build/pebble-app.elf elf
 .comment        0x0000000000000000       0x4e
  .comment       0x0000000000000000       0x4e /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
                                          0x4f (size before relaxing)
- .comment       0x0000000000000000       0x4f src/dice.c.7.o
- .comment       0x0000000000000000       0x4f appinfo.auto.c.7.o
+ .comment       0x0000000000000000       0x4f src/dice.c.15.o
+ .comment       0x0000000000000000       0x4f appinfo.auto.c.15.o
  .comment       0x0000000000000000       0x4f /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
 
-.debug_info     0x0000000000000000     0x109a
- .debug_info    0x0000000000000000      0xd6e src/dice.c.7.o
- .debug_info    0x0000000000000d6e      0x32c appinfo.auto.c.7.o
+.debug_info     0x0000000000000000     0x13a5
+ .debug_info    0x0000000000000000     0x1053 src/dice.c.15.o
+ .debug_info    0x0000000000001053      0x352 appinfo.auto.c.15.o
 
-.debug_abbrev   0x0000000000000000      0x3ba
- .debug_abbrev  0x0000000000000000      0x306 src/dice.c.7.o
- .debug_abbrev  0x0000000000000306       0xb4 appinfo.auto.c.7.o
+.debug_abbrev   0x0000000000000000      0x3f8
+ .debug_abbrev  0x0000000000000000      0x34d src/dice.c.15.o
+ .debug_abbrev  0x000000000000034d       0xab appinfo.auto.c.15.o
 
-.debug_loc      0x0000000000000000      0x361
- .debug_loc     0x0000000000000000      0x361 src/dice.c.7.o
+.debug_loc      0x0000000000000000      0x2d9
+ .debug_loc     0x0000000000000000      0x2d9 src/dice.c.15.o
 
 .debug_aranges  0x0000000000000000       0x88
  .debug_aranges
-                0x0000000000000000       0x70 src/dice.c.7.o
+                0x0000000000000000       0x70 src/dice.c.15.o
  .debug_aranges
-                0x0000000000000070       0x18 appinfo.auto.c.7.o
+                0x0000000000000070       0x18 appinfo.auto.c.15.o
 
 .debug_ranges   0x0000000000000000       0x90
- .debug_ranges  0x0000000000000000       0x90 src/dice.c.7.o
+ .debug_ranges  0x0000000000000000       0x90 src/dice.c.15.o
 
-.debug_line     0x0000000000000000      0x44a
- .debug_line    0x0000000000000000      0x310 src/dice.c.7.o
- .debug_line    0x0000000000000310      0x13a appinfo.auto.c.7.o
+.debug_line     0x0000000000000000      0x47a
+ .debug_line    0x0000000000000000      0x340 src/dice.c.15.o
+ .debug_line    0x0000000000000340      0x13a appinfo.auto.c.15.o
 
-.debug_str      0x0000000000000000      0x8c9
- .debug_str     0x0000000000000000      0x74a src/dice.c.7.o
-                                        0x7da (size before relaxing)
- .debug_str     0x000000000000074a      0x17f appinfo.auto.c.7.o
-                                        0x291 (size before relaxing)
+.debug_str      0x0000000000000000      0xa6b
+ .debug_str     0x0000000000000000      0x915 src/dice.c.15.o
+                                        0x9ae (size before relaxing)
+ .debug_str     0x0000000000000915      0x156 appinfo.auto.c.15.o
+                                        0x34a (size before relaxing)
 
-.debug_frame    0x0000000000000000      0x124
- .debug_frame   0x0000000000000000      0x124 src/dice.c.7.o
+.debug_frame    0x0000000000000000      0x12c
+ .debug_frame   0x0000000000000000      0x12c src/dice.c.15.o

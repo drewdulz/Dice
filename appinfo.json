@@ -5,12 +5,56 @@
   "longName": "Dice",
   "companyName": "Drewlusions",
   "versionCode": 1,
-  "versionLabel": "1.0",
+  "versionLabel": "1.0.3",
   "watchapp": {
     "watchface": false
   },
   "appKeys": {},
   "resources": {
-    "media": []
+    "media": [
+      {
+        "type": "png",
+        "name": "IMAGE_DICE1",
+        "file": "images/dice1.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_DICE2",
+        "file": "images/dice2.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_DICE3",
+        "file": "images/dice3.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_DICE4",
+        "file": "images/dice4.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_DICE5",
+        "file": "images/dice5.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_DICE6",
+        "file": "images/dice6.png"
+      },
+      {
+      "type": "png",
+      "name": "IMAGE_INTRO",
+      "file": "images/intro.png"
+      },
+      {
+      "type": "png",
+      "name": "IMAGE_diceIcon",
+      "file": "images/diceIcon.png",
+      "menuIcon": true
+      }
+
+              
+    ]
   }
 }
