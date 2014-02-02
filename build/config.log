@@ -1,13 +1,13 @@
-# project  configured on Sat Jan 18 20:13:49 2014 by
+# project  configured on Tue Jan 28 00:39:30 2014 by
 # waf 1.7.11 (abi 98, python 20705f0 on darwin)
 # using /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/waf configure build
 #
 ----------------------------------------
 Setting top to
-/Users/Drew/Dropbox/Dev/pebble-dev/Dice/Dice_0.3
+/Users/Drew/Dropbox/Dev/pebble-dev/Dice
 ----------------------------------------
 Setting out to
-/Users/Drew/Dropbox/Dev/pebble-dev/Dice/Dice_0.3/build
+/Users/Drew/Dropbox/Dev/pebble-dev/Dice/build
 ----------------------------------------
 Checking for program gcc,cc
 arm-none-eabi-gcc

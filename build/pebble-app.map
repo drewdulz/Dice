@@ -588,7 +588,7 @@ LOAD /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../
  .pbl_header    0x0000000000000000       0x82 appinfo.auto.c.15.o
                 0x0000000000000000                __pbl_app_info
 
-.text           0x0000000000000084      0x6bf
+.text           0x0000000000000084      0x6be
  *(.text)
  .text          0x0000000000000084       0x14 /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/Pebble/lib/libpebble.a(tmpIDurlFpebble.o)
  *(.text.*)
@@ -724,7 +724,7 @@ LOAD /Users/Drew/Dropbox/Dev/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools/bin/../
  .rodata        0x00000000000006a4       0x18 src/dice.c.15.o
  *(.rodata*)
  .rodata.str1.1
-                0x00000000000006bc       0x87 src/dice.c.15.o
+                0x00000000000006bc       0x86 src/dice.c.15.o
 
 .glue_7         0x0000000000000744        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
@@ -794,7 +794,7 @@ DISCARD
  libm.a(*)
  libgcc.a(*)
  *(.eh_frame)
-OUTPUT(/Users/Drew/Dropbox/Dev/pebble-dev/Dice/Dice_0.3/build/pebble-app.elf elf32-littlearm)
+OUTPUT(/Users/Drew/Dropbox/Dev/pebble-dev/Dice/build/pebble-app.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x27
@@ -840,15 +840,15 @@ OUTPUT(/Users/Drew/Dropbox/Dev/pebble-dev/Dice/Dice_0.3/build/pebble-app.elf elf
 .debug_ranges   0x0000000000000000       0x90
  .debug_ranges  0x0000000000000000       0x90 src/dice.c.15.o
 
-.debug_line     0x0000000000000000      0x47a
- .debug_line    0x0000000000000000      0x340 src/dice.c.15.o
- .debug_line    0x0000000000000340      0x13a appinfo.auto.c.15.o
+.debug_line     0x0000000000000000      0x471
+ .debug_line    0x0000000000000000      0x337 src/dice.c.15.o
+ .debug_line    0x0000000000000337      0x13a appinfo.auto.c.15.o
 
-.debug_str      0x0000000000000000      0xa6b
- .debug_str     0x0000000000000000      0x915 src/dice.c.15.o
-                                        0x9ae (size before relaxing)
- .debug_str     0x0000000000000915      0x156 appinfo.auto.c.15.o
-                                        0x34a (size before relaxing)
+.debug_str      0x0000000000000000      0xa62
+ .debug_str     0x0000000000000000      0x90c src/dice.c.15.o
+                                        0x9a5 (size before relaxing)
+ .debug_str     0x000000000000090c      0x156 appinfo.auto.c.15.o
+                                        0x341 (size before relaxing)
 
 .debug_frame    0x0000000000000000      0x12c
  .debug_frame   0x0000000000000000      0x12c src/dice.c.15.o

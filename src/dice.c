@@ -137,7 +137,7 @@ static void window_load(Window *window) {
     instruction_layer = text_layer_create(GRect(0,105,120,55));
     text_layer_set_background_color(instruction_layer, GColorBlack);
     text_layer_set_text_color(instruction_layer, GColorWhite);
-    text_layer_set_text(instruction_layer, "Roll number:  ");
+    text_layer_set_text(instruction_layer, "Roll Count:  ");
     text_layer_set_text_alignment(instruction_layer, GTextAlignmentRight);
     text_layer_set_overflow_mode(instruction_layer, GTextOverflowModeWordWrap);
     text_layer_set_font(instruction_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28));
